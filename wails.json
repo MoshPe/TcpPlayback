@@ -1,0 +1,17 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "TcpPlayback",
+  "outputfilename": "TcpPlayback",
+  "frontend:install": "pnpm install",
+  "frontend:build": "pnpm run build",
+  "frontend:dev:watcher": "pnpm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "MoshPe",
+    "email": "moshe.peretz318@gmail.com"
+  },
+  "build": {
+    "frontend:dir": "frontend/dist",
+    "output:dir": "build/bin"
+  }
+}

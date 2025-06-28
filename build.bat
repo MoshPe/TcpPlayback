@@ -1,0 +1,1 @@
+wails build -clean -ldflags "-s -w" -platform windows/amd64
