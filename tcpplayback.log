@@ -1,0 +1,1095 @@
+2025/07/04 18:52:56 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 18:52:56 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 18:52:56 config.go:166: Current config - Init Delay: 0s, Repeat: 0, Repeat Delay: 0s, Loop on End: false
+2025/07/04 18:52:56 config.go:166: Current config - Init Delay: 0s, Repeat: 0, Repeat Delay: 0s, Loop on End: false
+2025/07/04 18:52:56 config.go:168: ==============================
+2025/07/04 18:52:56 config.go:168: ==============================
+2025/07/04 18:53:04 file_manager.go:42: === GETTING RECORDED FILES ===
+2025/07/04 18:53:04 file_manager.go:43: Recordings directory: recordings
+2025/07/04 18:53:04 file_manager.go:60: Found file: recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:53:04 file_manager.go:70: Total .bin files found: 1
+2025/07/04 18:53:04 file_manager.go:114: === GETTING FILE INFO ===
+2025/07/04 18:53:04 file_manager.go:115: File: recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:53:04 file_manager.go:126: File size: 153 bytes
+2025/07/04 18:53:04 file_manager.go:267: Attempting to read file header...
+2025/07/04 18:53:04 file_manager.go:276: Header length: 99 bytes
+2025/07/04 18:53:04 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 18:46:31","version":1}
+2025/07/04 18:53:04 file_manager.go:300: Header parsed successfully:
+2025/07/04 18:53:04 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 18:53:04 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 18:53:04 file_manager.go:303:   Messages Per File: 0
+2025/07/04 18:53:04 file_manager.go:304:   Max File Size: 0
+2025/07/04 18:53:04 file_manager.go:305:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 18:53:04 file_manager.go:306:   Version: 1
+2025/07/04 18:53:04 file_manager.go:152: Header read successfully:
+2025/07/04 18:53:04 file_manager.go:153:   Magic Word: '' (length: 0)
+2025/07/04 18:53:04 file_manager.go:154:   Magic Word HEX: 
+2025/07/04 18:53:04 file_manager.go:155:   Messages Per File: 0
+2025/07/04 18:53:04 file_manager.go:156:   Max File Size: 0
+2025/07/04 18:53:04 file_manager.go:157:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 18:53:04 file_manager.go:158:   Version: 1
+2025/07/04 18:53:04 file_manager.go:183: No magic word in header, message count will be 0
+2025/07/04 18:53:04 file_manager.go:214: Final file info:
+2025/07/04 18:53:04 file_manager.go:215:   Magic Word: ''
+2025/07/04 18:53:04 file_manager.go:216:   Messages Per File: 0
+2025/07/04 18:53:04 file_manager.go:217:   Max File Size: 0
+2025/07/04 18:53:04 file_manager.go:218:   Message Count: 0
+2025/07/04 18:53:04 file_manager.go:219:   Is Open: false
+2025/07/04 18:53:04 file_manager.go:220: ========================
+2025/07/04 18:53:04 file_manager.go:103: Returning 1 file infos
+2025/07/04 18:53:04 file_manager.go:104: ========================
+2025/07/04 18:53:16 config.go:83: === SETTING PLAYBACK CONFIG ===
+2025/07/04 18:53:16 config.go:84: Initial Delay: 0 ms
+2025/07/04 18:53:16 config.go:85: Repeat Count: 3
+2025/07/04 18:53:16 config.go:86: Repeat Delay: 0 ms
+2025/07/04 18:53:16 config.go:87: Loop on End: true
+2025/07/04 18:53:16 config.go:88: ==============================
+2025/07/04 18:53:16 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 18:53:16 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 0s, Loop on End: true
+2025/07/04 18:53:16 config.go:168: ==============================
+2025/07/04 18:53:16 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 18:53:16 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 0s, Loop on End: true
+2025/07/04 18:53:16 config.go:168: ==============================
+2025/07/04 18:53:16 tcp_playback.go:14: === StartPlayback called ===
+2025/07/04 18:53:16 tcp_playback.go:15: Filename: recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:53:16 tcp_playback.go:16: Host: localhost
+2025/07/04 18:53:16 tcp_playback.go:17: Port: 8080
+2025/07/04 18:53:16 tcp_playback.go:26: === STARTING PLAYBACK ===
+2025/07/04 18:53:16 tcp_playback.go:27: File: recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:53:16 tcp_playback.go:28: Target: localhost:8080
+2025/07/04 18:53:16 tcp_playback.go:29: Current Config - Init Delay: 0s, Repeat: 3, Repeat Delay: 0s, Loop on End: true
+2025/07/04 18:53:16 tcp_playback.go:31: ========================
+2025/07/04 18:54:38 config.go:83: === SETTING PLAYBACK CONFIG ===
+2025/07/04 18:54:38 config.go:84: Initial Delay: 0 ms
+2025/07/04 18:54:38 config.go:85: Repeat Count: 3
+2025/07/04 18:54:38 config.go:86: Repeat Delay: 0 ms
+2025/07/04 18:54:38 config.go:87: Loop on End: true
+2025/07/04 18:54:38 config.go:88: ==============================
+2025/07/04 18:54:38 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 18:54:38 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 0s, Loop on End: true
+2025/07/04 18:54:38 config.go:168: ==============================
+2025/07/04 18:54:38 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 18:54:38 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 0s, Loop on End: true
+2025/07/04 18:54:38 config.go:168: ==============================
+2025/07/04 18:54:38 tcp_playback.go:14: === StartPlayback called ===
+2025/07/04 18:54:38 tcp_playback.go:15: Filename: recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:54:38 tcp_playback.go:16: Host: localhost
+2025/07/04 18:54:38 tcp_playback.go:17: Port: 8080
+2025/07/04 18:54:38 tcp_playback.go:26: === STARTING PLAYBACK ===
+2025/07/04 18:54:38 tcp_playback.go:27: File: recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:54:38 tcp_playback.go:28: Target: localhost:8080
+2025/07/04 18:54:38 tcp_playback.go:29: Current Config - Init Delay: 0s, Repeat: 3, Repeat Delay: 0s, Loop on End: true
+2025/07/04 18:54:38 tcp_playback.go:31: ========================
+2025/07/04 18:54:38 tcp_playback.go:63: Playback goroutine started for file: recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:54:38 file_manager.go:267: Attempting to read file header...
+2025/07/04 18:54:38 file_manager.go:276: Header length: 99 bytes
+2025/07/04 18:54:38 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 18:46:31","version":1}
+2025/07/04 18:54:38 file_manager.go:300: Header parsed successfully:
+2025/07/04 18:54:38 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 18:54:38 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 18:54:38 file_manager.go:303:   Messages Per File: 0
+2025/07/04 18:54:38 file_manager.go:304:   Max File Size: 0
+2025/07/04 18:54:38 file_manager.go:305:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 18:54:38 file_manager.go:306:   Version: 1
+2025/07/04 18:54:38 tcp_playback.go:172: Found header in recordings\tcp sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 18:54:38 tcp_playback.go:124: Completed playback #1: 50 bytes from recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:54:38 file_manager.go:267: Attempting to read file header...
+2025/07/04 18:54:38 file_manager.go:276: Header length: 99 bytes
+2025/07/04 18:54:38 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 18:46:31","version":1}
+2025/07/04 18:54:38 file_manager.go:300: Header parsed successfully:
+2025/07/04 18:54:38 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 18:54:38 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 18:54:38 file_manager.go:303:   Messages Per File: 0
+2025/07/04 18:54:38 file_manager.go:304:   Max File Size: 0
+2025/07/04 18:54:38 file_manager.go:305:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 18:54:38 file_manager.go:306:   Version: 1
+2025/07/04 18:54:38 tcp_playback.go:172: Found header in recordings\tcp sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 18:54:38 tcp_playback.go:124: Completed playback #2: 50 bytes from recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:54:38 file_manager.go:267: Attempting to read file header...
+2025/07/04 18:54:38 file_manager.go:276: Header length: 99 bytes
+2025/07/04 18:54:38 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 18:46:31","version":1}
+2025/07/04 18:54:38 file_manager.go:300: Header parsed successfully:
+2025/07/04 18:54:38 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 18:54:38 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 18:54:38 file_manager.go:303:   Messages Per File: 0
+2025/07/04 18:54:38 file_manager.go:304:   Max File Size: 0
+2025/07/04 18:54:38 file_manager.go:305:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 18:54:38 file_manager.go:306:   Version: 1
+2025/07/04 18:54:38 tcp_playback.go:172: Found header in recordings\tcp sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 18:54:38 tcp_playback.go:119: Error streaming file recordings\tcp sim\connection_1_1.bin: error copying data from file recordings\tcp sim\connection_1_1.bin: readfrom tcp [::1]:62922->[::1]:8080: write tcp [::1]:62922->[::1]:8080: wsasend: An established connection was aborted by the software in your host machine.
+2025/07/04 18:54:38 tcp_playback.go:150: Playback stopped for recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:54:38 tcp_playback.go:65: Playback goroutine finished for file: recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:56:06 config.go:83: === SETTING PLAYBACK CONFIG ===
+2025/07/04 18:56:06 config.go:84: Initial Delay: 0 ms
+2025/07/04 18:56:06 config.go:85: Repeat Count: 3
+2025/07/04 18:56:06 config.go:86: Repeat Delay: 0 ms
+2025/07/04 18:56:06 config.go:87: Loop on End: true
+2025/07/04 18:56:06 config.go:88: ==============================
+2025/07/04 18:56:06 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 18:56:06 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 0s, Loop on End: true
+2025/07/04 18:56:06 config.go:168: ==============================
+2025/07/04 18:56:06 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 18:56:06 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 0s, Loop on End: true
+2025/07/04 18:56:06 config.go:168: ==============================
+2025/07/04 18:56:06 tcp_playback.go:14: === StartPlayback called ===
+2025/07/04 18:56:06 tcp_playback.go:15: Filename: recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:56:06 tcp_playback.go:16: Host: localhost
+2025/07/04 18:56:06 tcp_playback.go:17: Port: 8080
+2025/07/04 18:56:06 tcp_playback.go:26: === STARTING PLAYBACK ===
+2025/07/04 18:56:06 tcp_playback.go:27: File: recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:56:06 tcp_playback.go:28: Target: localhost:8080
+2025/07/04 18:56:06 tcp_playback.go:29: Current Config - Init Delay: 0s, Repeat: 3, Repeat Delay: 0s, Loop on End: true
+2025/07/04 18:56:06 tcp_playback.go:31: ========================
+2025/07/04 18:56:06 tcp_playback.go:63: Playback goroutine started for file: recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:56:06 file_manager.go:267: Attempting to read file header...
+2025/07/04 18:56:06 file_manager.go:276: Header length: 99 bytes
+2025/07/04 18:56:06 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 18:46:31","version":1}
+2025/07/04 18:56:06 file_manager.go:300: Header parsed successfully:
+2025/07/04 18:56:06 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 18:56:06 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 18:56:06 file_manager.go:303:   Messages Per File: 0
+2025/07/04 18:56:06 file_manager.go:304:   Max File Size: 0
+2025/07/04 18:56:06 file_manager.go:305:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 18:56:06 file_manager.go:306:   Version: 1
+2025/07/04 18:56:06 tcp_playback.go:172: Found header in recordings\tcp sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 18:56:06 tcp_playback.go:124: Completed playback #1: 50 bytes from recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:56:06 file_manager.go:267: Attempting to read file header...
+2025/07/04 18:56:06 file_manager.go:276: Header length: 99 bytes
+2025/07/04 18:56:06 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 18:46:31","version":1}
+2025/07/04 18:56:06 file_manager.go:300: Header parsed successfully:
+2025/07/04 18:56:06 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 18:56:06 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 18:56:06 file_manager.go:303:   Messages Per File: 0
+2025/07/04 18:56:06 file_manager.go:304:   Max File Size: 0
+2025/07/04 18:56:06 file_manager.go:305:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 18:56:06 file_manager.go:306:   Version: 1
+2025/07/04 18:56:06 tcp_playback.go:172: Found header in recordings\tcp sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 18:56:06 tcp_playback.go:124: Completed playback #2: 50 bytes from recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:56:06 file_manager.go:267: Attempting to read file header...
+2025/07/04 18:56:06 file_manager.go:276: Header length: 99 bytes
+2025/07/04 18:56:06 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 18:46:31","version":1}
+2025/07/04 18:56:06 file_manager.go:300: Header parsed successfully:
+2025/07/04 18:56:06 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 18:56:06 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 18:56:06 file_manager.go:303:   Messages Per File: 0
+2025/07/04 18:56:06 file_manager.go:304:   Max File Size: 0
+2025/07/04 18:56:06 file_manager.go:305:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 18:56:06 file_manager.go:306:   Version: 1
+2025/07/04 18:56:06 tcp_playback.go:172: Found header in recordings\tcp sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 18:56:06 tcp_playback.go:119: Error streaming file recordings\tcp sim\connection_1_1.bin: error copying data from file recordings\tcp sim\connection_1_1.bin: readfrom tcp [::1]:62948->[::1]:8080: write tcp [::1]:62948->[::1]:8080: wsasend: An established connection was aborted by the software in your host machine.
+2025/07/04 18:56:06 tcp_playback.go:150: Playback stopped for recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:56:06 tcp_playback.go:65: Playback goroutine finished for file: recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:57:32 config.go:83: === SETTING PLAYBACK CONFIG ===
+2025/07/04 18:57:32 config.go:84: Initial Delay: 0 ms
+2025/07/04 18:57:32 config.go:85: Repeat Count: 3
+2025/07/04 18:57:32 config.go:86: Repeat Delay: 0 ms
+2025/07/04 18:57:32 config.go:87: Loop on End: true
+2025/07/04 18:57:32 config.go:88: ==============================
+2025/07/04 18:57:32 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 18:57:32 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 0s, Loop on End: true
+2025/07/04 18:57:32 config.go:168: ==============================
+2025/07/04 18:57:32 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 18:57:32 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 0s, Loop on End: true
+2025/07/04 18:57:32 config.go:168: ==============================
+2025/07/04 18:57:32 tcp_playback.go:14: === StartPlayback called ===
+2025/07/04 18:57:32 tcp_playback.go:15: Filename: recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:57:32 tcp_playback.go:16: Host: localhost
+2025/07/04 18:57:32 tcp_playback.go:17: Port: 8080
+2025/07/04 18:57:32 tcp_playback.go:26: === STARTING PLAYBACK ===
+2025/07/04 18:57:32 tcp_playback.go:27: File: recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:57:32 tcp_playback.go:28: Target: localhost:8080
+2025/07/04 18:57:32 tcp_playback.go:29: Current Config - Init Delay: 0s, Repeat: 3, Repeat Delay: 0s, Loop on End: true
+2025/07/04 18:57:32 tcp_playback.go:31: ========================
+2025/07/04 18:57:32 tcp_playback.go:63: Playback goroutine started for file: recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:57:32 file_manager.go:267: Attempting to read file header...
+2025/07/04 18:57:32 file_manager.go:276: Header length: 99 bytes
+2025/07/04 18:57:32 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 18:46:31","version":1}
+2025/07/04 18:57:32 file_manager.go:300: Header parsed successfully:
+2025/07/04 18:57:32 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 18:57:32 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 18:57:32 file_manager.go:303:   Messages Per File: 0
+2025/07/04 18:57:32 file_manager.go:304:   Max File Size: 0
+2025/07/04 18:57:32 file_manager.go:305:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 18:57:32 file_manager.go:306:   Version: 1
+2025/07/04 18:57:32 tcp_playback.go:172: Found header in recordings\tcp sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 18:57:32 tcp_playback.go:124: Completed playback #1: 50 bytes from recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:57:32 file_manager.go:267: Attempting to read file header...
+2025/07/04 18:57:32 file_manager.go:276: Header length: 99 bytes
+2025/07/04 18:57:32 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 18:46:31","version":1}
+2025/07/04 18:57:32 file_manager.go:300: Header parsed successfully:
+2025/07/04 18:57:32 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 18:57:32 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 18:57:32 file_manager.go:303:   Messages Per File: 0
+2025/07/04 18:57:32 file_manager.go:304:   Max File Size: 0
+2025/07/04 18:57:32 file_manager.go:305:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 18:57:32 file_manager.go:306:   Version: 1
+2025/07/04 18:57:32 tcp_playback.go:172: Found header in recordings\tcp sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 18:57:32 tcp_playback.go:124: Completed playback #2: 50 bytes from recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:57:32 file_manager.go:267: Attempting to read file header...
+2025/07/04 18:57:32 file_manager.go:276: Header length: 99 bytes
+2025/07/04 18:57:32 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 18:46:31","version":1}
+2025/07/04 18:57:32 file_manager.go:300: Header parsed successfully:
+2025/07/04 18:57:32 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 18:57:32 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 18:57:32 file_manager.go:303:   Messages Per File: 0
+2025/07/04 18:57:32 file_manager.go:304:   Max File Size: 0
+2025/07/04 18:57:32 file_manager.go:305:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 18:57:32 file_manager.go:306:   Version: 1
+2025/07/04 18:57:32 tcp_playback.go:172: Found header in recordings\tcp sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 18:57:32 tcp_playback.go:124: Completed playback #3: 50 bytes from recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:57:32 tcp_playback.go:136: Reached maximum repeats (3), stopping playback
+2025/07/04 18:57:32 tcp_playback.go:150: Playback stopped for recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:57:32 tcp_playback.go:65: Playback goroutine finished for file: recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:59:16 config.go:83: === SETTING PLAYBACK CONFIG ===
+2025/07/04 18:59:16 config.go:84: Initial Delay: 0 ms
+2025/07/04 18:59:16 config.go:85: Repeat Count: 3
+2025/07/04 18:59:16 config.go:86: Repeat Delay: 0 ms
+2025/07/04 18:59:16 config.go:87: Loop on End: true
+2025/07/04 18:59:16 config.go:88: ==============================
+2025/07/04 18:59:16 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 18:59:16 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 0s, Loop on End: true
+2025/07/04 18:59:16 config.go:168: ==============================
+2025/07/04 18:59:16 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 18:59:16 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 0s, Loop on End: true
+2025/07/04 18:59:16 config.go:168: ==============================
+2025/07/04 18:59:16 tcp_playback.go:14: === StartPlayback called ===
+2025/07/04 18:59:16 tcp_playback.go:15: Filename: recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:59:16 tcp_playback.go:16: Host: localhost
+2025/07/04 18:59:16 tcp_playback.go:17: Port: 8080
+2025/07/04 18:59:16 tcp_playback.go:26: === STARTING PLAYBACK ===
+2025/07/04 18:59:16 tcp_playback.go:27: File: recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:59:16 tcp_playback.go:28: Target: localhost:8080
+2025/07/04 18:59:16 tcp_playback.go:29: Current Config - Init Delay: 0s, Repeat: 3, Repeat Delay: 0s, Loop on End: true
+2025/07/04 18:59:16 tcp_playback.go:31: ========================
+2025/07/04 18:59:16 tcp_playback.go:63: Playback goroutine started for file: recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:59:16 file_manager.go:267: Attempting to read file header...
+2025/07/04 18:59:16 file_manager.go:276: Header length: 99 bytes
+2025/07/04 18:59:16 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 18:46:31","version":1}
+2025/07/04 18:59:16 file_manager.go:300: Header parsed successfully:
+2025/07/04 18:59:16 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 18:59:16 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 18:59:16 file_manager.go:303:   Messages Per File: 0
+2025/07/04 18:59:16 file_manager.go:304:   Max File Size: 0
+2025/07/04 18:59:16 file_manager.go:305:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 18:59:16 file_manager.go:306:   Version: 1
+2025/07/04 18:59:16 tcp_playback.go:172: Found header in recordings\tcp sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 18:59:16 tcp_playback.go:124: Completed playback #1: 50 bytes from recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:59:16 file_manager.go:267: Attempting to read file header...
+2025/07/04 18:59:16 file_manager.go:276: Header length: 99 bytes
+2025/07/04 18:59:16 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 18:46:31","version":1}
+2025/07/04 18:59:16 file_manager.go:300: Header parsed successfully:
+2025/07/04 18:59:16 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 18:59:16 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 18:59:16 file_manager.go:303:   Messages Per File: 0
+2025/07/04 18:59:16 file_manager.go:304:   Max File Size: 0
+2025/07/04 18:59:16 file_manager.go:305:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 18:59:16 file_manager.go:306:   Version: 1
+2025/07/04 18:59:16 tcp_playback.go:172: Found header in recordings\tcp sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 18:59:16 tcp_playback.go:124: Completed playback #2: 50 bytes from recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:59:16 file_manager.go:267: Attempting to read file header...
+2025/07/04 18:59:16 file_manager.go:276: Header length: 99 bytes
+2025/07/04 18:59:16 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 18:46:31","version":1}
+2025/07/04 18:59:16 file_manager.go:300: Header parsed successfully:
+2025/07/04 18:59:16 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 18:59:16 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 18:59:16 file_manager.go:303:   Messages Per File: 0
+2025/07/04 18:59:16 file_manager.go:304:   Max File Size: 0
+2025/07/04 18:59:16 file_manager.go:305:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 18:59:16 file_manager.go:306:   Version: 1
+2025/07/04 18:59:16 tcp_playback.go:172: Found header in recordings\tcp sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 18:59:16 tcp_playback.go:124: Completed playback #3: 50 bytes from recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:59:16 tcp_playback.go:136: Reached maximum repeats (3), stopping playback
+2025/07/04 18:59:16 tcp_playback.go:150: Playback stopped for recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:59:16 tcp_playback.go:65: Playback goroutine finished for file: recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:59:35 config.go:83: === SETTING PLAYBACK CONFIG ===
+2025/07/04 18:59:35 config.go:84: Initial Delay: 0 ms
+2025/07/04 18:59:35 config.go:85: Repeat Count: 1
+2025/07/04 18:59:35 config.go:86: Repeat Delay: 0 ms
+2025/07/04 18:59:35 config.go:87: Loop on End: true
+2025/07/04 18:59:35 config.go:88: ==============================
+2025/07/04 18:59:35 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 18:59:35 config.go:166: Current config - Init Delay: 0s, Repeat: 1, Repeat Delay: 0s, Loop on End: true
+2025/07/04 18:59:35 config.go:168: ==============================
+2025/07/04 18:59:35 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 18:59:35 config.go:166: Current config - Init Delay: 0s, Repeat: 1, Repeat Delay: 0s, Loop on End: true
+2025/07/04 18:59:35 config.go:168: ==============================
+2025/07/04 18:59:35 tcp_playback.go:14: === StartPlayback called ===
+2025/07/04 18:59:35 tcp_playback.go:15: Filename: recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:59:35 tcp_playback.go:16: Host: localhost
+2025/07/04 18:59:35 tcp_playback.go:17: Port: 8080
+2025/07/04 18:59:35 tcp_playback.go:26: === STARTING PLAYBACK ===
+2025/07/04 18:59:35 tcp_playback.go:27: File: recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:59:35 tcp_playback.go:28: Target: localhost:8080
+2025/07/04 18:59:35 tcp_playback.go:29: Current Config - Init Delay: 0s, Repeat: 1, Repeat Delay: 0s, Loop on End: true
+2025/07/04 18:59:35 tcp_playback.go:31: ========================
+2025/07/04 18:59:35 tcp_playback.go:63: Playback goroutine started for file: recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:59:35 file_manager.go:267: Attempting to read file header...
+2025/07/04 18:59:35 file_manager.go:276: Header length: 99 bytes
+2025/07/04 18:59:35 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 18:46:31","version":1}
+2025/07/04 18:59:35 file_manager.go:300: Header parsed successfully:
+2025/07/04 18:59:35 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 18:59:35 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 18:59:35 file_manager.go:303:   Messages Per File: 0
+2025/07/04 18:59:35 file_manager.go:304:   Max File Size: 0
+2025/07/04 18:59:35 file_manager.go:305:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 18:59:35 file_manager.go:306:   Version: 1
+2025/07/04 18:59:35 tcp_playback.go:172: Found header in recordings\tcp sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 18:59:35 tcp_playback.go:124: Completed playback #1: 50 bytes from recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:59:35 tcp_playback.go:136: Reached maximum repeats (1), stopping playback
+2025/07/04 18:59:35 tcp_playback.go:150: Playback stopped for recordings\tcp sim\connection_1_1.bin
+2025/07/04 18:59:35 tcp_playback.go:65: Playback goroutine finished for file: recordings\tcp sim\connection_1_1.bin
+2025/07/04 19:06:21 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 19:06:21 config.go:166: Current config - Init Delay: 0s, Repeat: 0, Repeat Delay: 0s, Loop on End: false
+2025/07/04 19:06:21 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 19:06:21 config.go:166: Current config - Init Delay: 0s, Repeat: 0, Repeat Delay: 0s, Loop on End: false
+2025/07/04 19:06:21 config.go:168: ==============================
+2025/07/04 19:06:21 config.go:168: ==============================
+2025/07/04 19:06:30 file_manager.go:42: === GETTING RECORDED FILES ===
+2025/07/04 19:06:30 file_manager.go:43: Recordings directory: recordings
+2025/07/04 19:06:30 file_manager.go:60: Found file: recordings\tcp sim\connection_1_1.bin
+2025/07/04 19:06:30 file_manager.go:70: Total .bin files found: 1
+2025/07/04 19:06:30 file_manager.go:114: === GETTING FILE INFO ===
+2025/07/04 19:06:30 file_manager.go:115: File: recordings\tcp sim\connection_1_1.bin
+2025/07/04 19:06:30 file_manager.go:126: File size: 153 bytes
+2025/07/04 19:06:30 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:06:30 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:06:30 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 18:46:31","version":1}
+2025/07/04 19:06:30 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:06:30 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:06:30 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:06:30 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:06:30 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:06:30 file_manager.go:305:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 19:06:30 file_manager.go:306:   Version: 1
+2025/07/04 19:06:30 file_manager.go:152: Header read successfully:
+2025/07/04 19:06:30 file_manager.go:153:   Magic Word: '' (length: 0)
+2025/07/04 19:06:30 file_manager.go:154:   Magic Word HEX: 
+2025/07/04 19:06:30 file_manager.go:155:   Messages Per File: 0
+2025/07/04 19:06:30 file_manager.go:156:   Max File Size: 0
+2025/07/04 19:06:30 file_manager.go:157:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 19:06:30 file_manager.go:158:   Version: 1
+2025/07/04 19:06:30 file_manager.go:183: No magic word in header, message count will be 0
+2025/07/04 19:06:30 file_manager.go:214: Final file info:
+2025/07/04 19:06:30 file_manager.go:215:   Magic Word: ''
+2025/07/04 19:06:30 file_manager.go:216:   Messages Per File: 0
+2025/07/04 19:06:30 file_manager.go:217:   Max File Size: 0
+2025/07/04 19:06:30 file_manager.go:218:   Message Count: 0
+2025/07/04 19:06:30 file_manager.go:219:   Is Open: false
+2025/07/04 19:06:30 file_manager.go:220: ========================
+2025/07/04 19:06:30 file_manager.go:103: Returning 1 file infos
+2025/07/04 19:06:30 file_manager.go:104: ========================
+2025/07/04 19:06:44 config.go:83: === SETTING PLAYBACK CONFIG ===
+2025/07/04 19:06:44 config.go:84: Initial Delay: 0 ms
+2025/07/04 19:06:44 config.go:85: Repeat Count: 3
+2025/07/04 19:06:44 config.go:86: Repeat Delay: 0 ms
+2025/07/04 19:06:44 config.go:87: Loop on End: true
+2025/07/04 19:06:44 config.go:88: ==============================
+2025/07/04 19:06:44 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 19:06:44 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 0s, Loop on End: true
+2025/07/04 19:06:44 config.go:168: ==============================
+2025/07/04 19:06:44 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 19:06:44 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 0s, Loop on End: true
+2025/07/04 19:06:44 config.go:168: ==============================
+2025/07/04 19:06:44 tcp_playback.go:14: === StartPlayback called ===
+2025/07/04 19:06:44 tcp_playback.go:15: Filename: recordings\tcp sim\connection_1_1.bin
+2025/07/04 19:06:44 tcp_playback.go:16: Host: localhost
+2025/07/04 19:06:44 tcp_playback.go:17: Port: 8080
+2025/07/04 19:06:44 tcp_playback.go:26: === STARTING PLAYBACK ===
+2025/07/04 19:06:44 tcp_playback.go:27: File: recordings\tcp sim\connection_1_1.bin
+2025/07/04 19:06:44 tcp_playback.go:28: Target: localhost:8080
+2025/07/04 19:06:44 tcp_playback.go:29: Current Config - Init Delay: 0s, Repeat: 3, Repeat Delay: 0s, Loop on End: true
+2025/07/04 19:06:44 tcp_playback.go:31: ========================
+2025/07/04 19:06:44 tcp_playback.go:63: Playback goroutine started for file: recordings\tcp sim\connection_1_1.bin
+2025/07/04 19:06:44 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:06:44 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:06:44 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 18:46:31","version":1}
+2025/07/04 19:06:44 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:06:44 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:06:44 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:06:44 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:06:44 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:06:44 file_manager.go:305:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 19:06:44 file_manager.go:306:   Version: 1
+2025/07/04 19:06:44 tcp_playback.go:172: Found header in recordings\tcp sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:06:44 tcp_playback.go:124: Completed playback #1: 50 bytes from recordings\tcp sim\connection_1_1.bin
+2025/07/04 19:06:44 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:06:44 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:06:44 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 18:46:31","version":1}
+2025/07/04 19:06:44 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:06:44 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:06:44 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:06:44 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:06:44 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:06:44 file_manager.go:305:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 19:06:44 file_manager.go:306:   Version: 1
+2025/07/04 19:06:44 tcp_playback.go:172: Found header in recordings\tcp sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:06:44 tcp_playback.go:124: Completed playback #2: 50 bytes from recordings\tcp sim\connection_1_1.bin
+2025/07/04 19:06:44 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:06:44 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:06:44 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 18:46:31","version":1}
+2025/07/04 19:06:44 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:06:44 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:06:44 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:06:44 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:06:44 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:06:44 file_manager.go:305:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 19:06:44 file_manager.go:306:   Version: 1
+2025/07/04 19:06:44 tcp_playback.go:172: Found header in recordings\tcp sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:06:44 tcp_playback.go:124: Completed playback #3: 50 bytes from recordings\tcp sim\connection_1_1.bin
+2025/07/04 19:06:44 tcp_playback.go:136: Reached maximum repeats (3), stopping playback
+2025/07/04 19:06:44 tcp_playback.go:150: Playback stopped for recordings\tcp sim\connection_1_1.bin
+2025/07/04 19:06:44 tcp_playback.go:65: Playback goroutine finished for file: recordings\tcp sim\connection_1_1.bin
+2025/07/04 19:10:29 config.go:108: === SETTING RECORDING CONFIG ===
+2025/07/04 19:10:29 config.go:109: Original Magic Word: '' (length: 0)
+2025/07/04 19:10:29 config.go:110: Original Magic Word HEX: 
+2025/07/04 19:10:29 config.go:114: Interpreted Magic Word: '' (length: 0)
+2025/07/04 19:10:29 config.go:115: Interpreted Magic Word HEX: 
+2025/07/04 19:10:29 config.go:117: Messages Per File: 0
+2025/07/04 19:10:29 config.go:118: Max File Size: 0 bytes
+2025/07/04 19:10:29 config.go:119: ==============================
+2025/07/04 19:10:29 config.go:126: === VERIFICATION ===
+2025/07/04 19:10:29 config.go:127: Stored Magic Word: '' (length: 0)
+2025/07/04 19:10:29 config.go:128: Stored Magic Word HEX: 
+2025/07/04 19:10:29 config.go:129: Stored Messages Per File: 0
+2025/07/04 19:10:29 config.go:130: Stored Max File Size: 0
+2025/07/04 19:10:29 config.go:131: ===================
+2025/07/04 19:10:29 tcp_recording.go:16: === STARTING RECORDING ===
+2025/07/04 19:10:29 tcp_recording.go:17: Port: 8080
+2025/07/04 19:10:29 tcp_recording.go:18: Current recording config:
+2025/07/04 19:10:29 tcp_recording.go:19:   Magic Word: '' (length: 0)
+2025/07/04 19:10:29 tcp_recording.go:20:   Magic Word HEX: 
+2025/07/04 19:10:29 tcp_recording.go:21:   Messages Per File: 0
+2025/07/04 19:10:29 tcp_recording.go:22:   Max File Size: 0
+2025/07/04 19:10:29 tcp_recording.go:23: ========================
+2025/07/04 19:10:29 tcp_recording.go:62: Recording started on :8080 with session: java sim
+2025/07/04 19:10:29 file_manager.go:42: === GETTING RECORDED FILES ===
+2025/07/04 19:10:29 file_manager.go:43: Recordings directory: recordings
+2025/07/04 19:10:29 file_manager.go:60: Found file: recordings\tcp sim\connection_1_1.bin
+2025/07/04 19:10:29 file_manager.go:70: Total .bin files found: 1
+2025/07/04 19:10:29 file_manager.go:114: === GETTING FILE INFO ===
+2025/07/04 19:10:29 file_manager.go:115: File: recordings\tcp sim\connection_1_1.bin
+2025/07/04 19:10:29 file_manager.go:126: File size: 153 bytes
+2025/07/04 19:10:29 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:10:29 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:10:29 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 18:46:31","version":1}
+2025/07/04 19:10:29 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:10:29 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:10:29 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:10:29 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:10:29 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:10:29 file_manager.go:305:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 19:10:29 file_manager.go:306:   Version: 1
+2025/07/04 19:10:29 file_manager.go:152: Header read successfully:
+2025/07/04 19:10:29 file_manager.go:153:   Magic Word: '' (length: 0)
+2025/07/04 19:10:29 file_manager.go:154:   Magic Word HEX: 
+2025/07/04 19:10:29 file_manager.go:155:   Messages Per File: 0
+2025/07/04 19:10:29 file_manager.go:156:   Max File Size: 0
+2025/07/04 19:10:29 file_manager.go:157:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 19:10:29 file_manager.go:158:   Version: 1
+2025/07/04 19:10:29 file_manager.go:183: No magic word in header, message count will be 0
+2025/07/04 19:10:29 file_manager.go:214: Final file info:
+2025/07/04 19:10:29 file_manager.go:215:   Magic Word: ''
+2025/07/04 19:10:29 file_manager.go:216:   Messages Per File: 0
+2025/07/04 19:10:29 file_manager.go:217:   Max File Size: 0
+2025/07/04 19:10:29 file_manager.go:218:   Message Count: 0
+2025/07/04 19:10:29 file_manager.go:219:   Is Open: false
+2025/07/04 19:10:29 file_manager.go:220: ========================
+2025/07/04 19:10:29 file_manager.go:103: Returning 1 file infos
+2025/07/04 19:10:29 file_manager.go:104: ========================
+2025/07/04 19:10:32 tcp_recording.go:141: === RECORDING CONFIGURATION ===
+2025/07/04 19:10:32 tcp_recording.go:142: Magic Word: '' (length: 0)
+2025/07/04 19:10:32 tcp_recording.go:143: Magic Word HEX: 
+2025/07/04 19:10:32 tcp_recording.go:144: Messages Per File: 0
+2025/07/04 19:10:32 tcp_recording.go:145: Max File Size: 0
+2025/07/04 19:10:32 tcp_recording.go:146: ==============================
+2025/07/04 19:10:32 file_manager.go:227: === WRITING FILE HEADER ===
+2025/07/04 19:10:32 file_manager.go:228: Magic Word to write: '' (length: 0)
+2025/07/04 19:10:32 file_manager.go:229: Magic Word HEX: 
+2025/07/04 19:10:32 file_manager.go:230: Messages Per File: 0
+2025/07/04 19:10:32 file_manager.go:231: Max File Size: 0
+2025/07/04 19:10:32 file_manager.go:247: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:10:32 file_manager.go:248: Header JSON length: 99
+2025/07/04 19:10:32 file_manager.go:249: ========================
+2025/07/04 19:10:32 tcp_recording.go:171: Started recording to recordings\java sim\connection_1_1.bin
+2025/07/04 19:10:32 tcp_recording.go:304: No magic word set, treating all data as one message
+2025/07/04 19:10:32 tcp_recording.go:305: Received data - Length: 42 bytes
+2025/07/04 19:10:32 tcp_recording.go:306: ASCII: "Hello, Server! This is a string message.\r\n"
+2025/07/04 19:10:32 tcp_recording.go:307: HEX: 48656c6c6f2c20536572766572212054686973206973206120737472696e67206d6573736167652e0d0a
+2025/07/04 19:10:32 tcp_recording.go:372: Finished recording: 42 bytes, 1 messages, 1 files
+2025/07/04 19:10:42 file_manager.go:42: === GETTING RECORDED FILES ===
+2025/07/04 19:10:42 file_manager.go:43: Recordings directory: recordings
+2025/07/04 19:10:42 file_manager.go:60: Found file: recordings\java sim\connection_1_1.bin
+2025/07/04 19:10:42 file_manager.go:60: Found file: recordings\tcp sim\connection_1_1.bin
+2025/07/04 19:10:42 file_manager.go:70: Total .bin files found: 2
+2025/07/04 19:10:42 file_manager.go:114: === GETTING FILE INFO ===
+2025/07/04 19:10:42 file_manager.go:115: File: recordings\java sim\connection_1_1.bin
+2025/07/04 19:10:42 file_manager.go:126: File size: 145 bytes
+2025/07/04 19:10:42 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:10:42 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:10:42 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:10:42 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:10:42 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:10:42 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:10:42 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:10:42 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:10:42 file_manager.go:305:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:10:42 file_manager.go:306:   Version: 1
+2025/07/04 19:10:42 file_manager.go:152: Header read successfully:
+2025/07/04 19:10:42 file_manager.go:153:   Magic Word: '' (length: 0)
+2025/07/04 19:10:42 file_manager.go:154:   Magic Word HEX: 
+2025/07/04 19:10:42 file_manager.go:155:   Messages Per File: 0
+2025/07/04 19:10:42 file_manager.go:156:   Max File Size: 0
+2025/07/04 19:10:42 file_manager.go:157:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:10:42 file_manager.go:158:   Version: 1
+2025/07/04 19:10:42 file_manager.go:183: No magic word in header, message count will be 0
+2025/07/04 19:10:42 file_manager.go:214: Final file info:
+2025/07/04 19:10:42 file_manager.go:215:   Magic Word: ''
+2025/07/04 19:10:42 file_manager.go:216:   Messages Per File: 0
+2025/07/04 19:10:42 file_manager.go:217:   Max File Size: 0
+2025/07/04 19:10:42 file_manager.go:218:   Message Count: 0
+2025/07/04 19:10:42 file_manager.go:219:   Is Open: false
+2025/07/04 19:10:42 file_manager.go:220: ========================
+2025/07/04 19:10:42 file_manager.go:114: === GETTING FILE INFO ===
+2025/07/04 19:10:42 file_manager.go:115: File: recordings\tcp sim\connection_1_1.bin
+2025/07/04 19:10:42 file_manager.go:126: File size: 153 bytes
+2025/07/04 19:10:42 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:10:42 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:10:42 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 18:46:31","version":1}
+2025/07/04 19:10:42 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:10:42 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:10:42 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:10:42 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:10:42 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:10:42 file_manager.go:305:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 19:10:42 file_manager.go:306:   Version: 1
+2025/07/04 19:10:42 file_manager.go:152: Header read successfully:
+2025/07/04 19:10:42 file_manager.go:153:   Magic Word: '' (length: 0)
+2025/07/04 19:10:42 file_manager.go:154:   Magic Word HEX: 
+2025/07/04 19:10:42 file_manager.go:155:   Messages Per File: 0
+2025/07/04 19:10:42 file_manager.go:156:   Max File Size: 0
+2025/07/04 19:10:42 file_manager.go:157:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 19:10:42 file_manager.go:158:   Version: 1
+2025/07/04 19:10:42 file_manager.go:183: No magic word in header, message count will be 0
+2025/07/04 19:10:42 file_manager.go:214: Final file info:
+2025/07/04 19:10:42 file_manager.go:215:   Magic Word: ''
+2025/07/04 19:10:42 file_manager.go:216:   Messages Per File: 0
+2025/07/04 19:10:42 file_manager.go:217:   Max File Size: 0
+2025/07/04 19:10:42 file_manager.go:218:   Message Count: 0
+2025/07/04 19:10:42 file_manager.go:219:   Is Open: false
+2025/07/04 19:10:42 file_manager.go:220: ========================
+2025/07/04 19:10:42 file_manager.go:103: Returning 2 file infos
+2025/07/04 19:10:42 file_manager.go:104: ========================
+2025/07/04 19:10:54 config.go:83: === SETTING PLAYBACK CONFIG ===
+2025/07/04 19:10:54 config.go:84: Initial Delay: 0 ms
+2025/07/04 19:10:54 config.go:85: Repeat Count: 3
+2025/07/04 19:10:54 config.go:86: Repeat Delay: 0 ms
+2025/07/04 19:10:54 config.go:87: Loop on End: true
+2025/07/04 19:10:54 config.go:88: ==============================
+2025/07/04 19:10:54 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 19:10:54 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 0s, Loop on End: true
+2025/07/04 19:10:54 config.go:168: ==============================
+2025/07/04 19:10:54 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 19:10:54 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 0s, Loop on End: true
+2025/07/04 19:10:54 config.go:168: ==============================
+2025/07/04 19:10:54 tcp_playback.go:14: === StartPlayback called ===
+2025/07/04 19:10:54 tcp_playback.go:15: Filename: recordings\java sim\connection_1_1.bin
+2025/07/04 19:10:54 tcp_playback.go:16: Host: localhost
+2025/07/04 19:10:54 tcp_playback.go:17: Port: 8080
+2025/07/04 19:10:54 tcp_playback.go:26: === STARTING PLAYBACK ===
+2025/07/04 19:10:54 tcp_playback.go:27: File: recordings\java sim\connection_1_1.bin
+2025/07/04 19:10:54 tcp_playback.go:28: Target: localhost:8080
+2025/07/04 19:10:54 tcp_playback.go:29: Current Config - Init Delay: 0s, Repeat: 3, Repeat Delay: 0s, Loop on End: true
+2025/07/04 19:10:54 tcp_playback.go:31: ========================
+2025/07/04 19:10:54 tcp_playback.go:63: Playback goroutine started for file: recordings\java sim\connection_1_1.bin
+2025/07/04 19:10:54 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:10:54 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:10:54 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:10:54 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:10:54 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:10:54 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:10:54 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:10:54 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:10:54 file_manager.go:305:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:10:54 file_manager.go:306:   Version: 1
+2025/07/04 19:10:54 tcp_playback.go:172: Found header in recordings\java sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:10:54 tcp_playback.go:124: Completed playback #1: 42 bytes from recordings\java sim\connection_1_1.bin
+2025/07/04 19:10:54 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:10:54 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:10:54 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:10:54 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:10:54 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:10:54 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:10:54 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:10:54 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:10:54 file_manager.go:305:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:10:54 file_manager.go:306:   Version: 1
+2025/07/04 19:10:54 tcp_playback.go:172: Found header in recordings\java sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:10:54 tcp_playback.go:124: Completed playback #2: 42 bytes from recordings\java sim\connection_1_1.bin
+2025/07/04 19:10:54 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:10:54 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:10:54 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:10:54 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:10:54 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:10:54 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:10:54 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:10:54 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:10:54 file_manager.go:305:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:10:54 file_manager.go:306:   Version: 1
+2025/07/04 19:10:54 tcp_playback.go:172: Found header in recordings\java sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:10:54 tcp_playback.go:124: Completed playback #3: 42 bytes from recordings\java sim\connection_1_1.bin
+2025/07/04 19:10:54 tcp_playback.go:136: Reached maximum repeats (3), stopping playback
+2025/07/04 19:10:54 tcp_playback.go:150: Playback stopped for recordings\java sim\connection_1_1.bin
+2025/07/04 19:10:54 tcp_playback.go:65: Playback goroutine finished for file: recordings\java sim\connection_1_1.bin
+2025/07/04 19:11:07 config.go:83: === SETTING PLAYBACK CONFIG ===
+2025/07/04 19:11:07 config.go:84: Initial Delay: 0 ms
+2025/07/04 19:11:07 config.go:85: Repeat Count: 3
+2025/07/04 19:11:07 config.go:86: Repeat Delay: 2000 ms
+2025/07/04 19:11:07 config.go:87: Loop on End: true
+2025/07/04 19:11:07 config.go:88: ==============================
+2025/07/04 19:11:07 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 19:11:07 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 2s, Loop on End: true
+2025/07/04 19:11:07 config.go:168: ==============================
+2025/07/04 19:11:07 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 19:11:07 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 2s, Loop on End: true
+2025/07/04 19:11:07 config.go:168: ==============================
+2025/07/04 19:11:07 tcp_playback.go:14: === StartPlayback called ===
+2025/07/04 19:11:07 tcp_playback.go:15: Filename: recordings\java sim\connection_1_1.bin
+2025/07/04 19:11:07 tcp_playback.go:16: Host: localhost
+2025/07/04 19:11:07 tcp_playback.go:17: Port: 8080
+2025/07/04 19:11:07 tcp_playback.go:26: === STARTING PLAYBACK ===
+2025/07/04 19:11:07 tcp_playback.go:27: File: recordings\java sim\connection_1_1.bin
+2025/07/04 19:11:07 tcp_playback.go:28: Target: localhost:8080
+2025/07/04 19:11:07 tcp_playback.go:29: Current Config - Init Delay: 0s, Repeat: 3, Repeat Delay: 2s, Loop on End: true
+2025/07/04 19:11:07 tcp_playback.go:31: ========================
+2025/07/04 19:11:07 tcp_playback.go:63: Playback goroutine started for file: recordings\java sim\connection_1_1.bin
+2025/07/04 19:11:07 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:11:07 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:11:07 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:11:07 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:11:07 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:11:07 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:11:07 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:11:07 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:11:07 file_manager.go:305:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:11:07 file_manager.go:306:   Version: 1
+2025/07/04 19:11:07 tcp_playback.go:172: Found header in recordings\java sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:11:07 tcp_playback.go:124: Completed playback #1: 42 bytes from recordings\java sim\connection_1_1.bin
+2025/07/04 19:11:07 tcp_playback.go:142: Waiting 2s before next repeat...
+2025/07/04 19:11:09 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:11:09 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:11:09 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:11:09 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:11:09 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:11:09 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:11:09 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:11:09 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:11:09 file_manager.go:305:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:11:09 file_manager.go:306:   Version: 1
+2025/07/04 19:11:09 tcp_playback.go:172: Found header in recordings\java sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:11:09 tcp_playback.go:124: Completed playback #2: 42 bytes from recordings\java sim\connection_1_1.bin
+2025/07/04 19:11:09 tcp_playback.go:142: Waiting 2s before next repeat...
+2025/07/04 19:11:11 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:11:11 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:11:11 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:11:11 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:11:11 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:11:11 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:11:11 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:11:11 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:11:11 file_manager.go:305:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:11:11 file_manager.go:306:   Version: 1
+2025/07/04 19:11:11 tcp_playback.go:172: Found header in recordings\java sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:11:11 tcp_playback.go:124: Completed playback #3: 42 bytes from recordings\java sim\connection_1_1.bin
+2025/07/04 19:11:11 tcp_playback.go:136: Reached maximum repeats (3), stopping playback
+2025/07/04 19:11:11 tcp_playback.go:150: Playback stopped for recordings\java sim\connection_1_1.bin
+2025/07/04 19:11:11 tcp_playback.go:65: Playback goroutine finished for file: recordings\java sim\connection_1_1.bin
+2025/07/04 19:11:36 config.go:83: === SETTING PLAYBACK CONFIG ===
+2025/07/04 19:11:36 config.go:84: Initial Delay: 0 ms
+2025/07/04 19:11:36 config.go:85: Repeat Count: 3
+2025/07/04 19:11:36 config.go:86: Repeat Delay: 2000 ms
+2025/07/04 19:11:36 config.go:87: Loop on End: true
+2025/07/04 19:11:36 config.go:88: ==============================
+2025/07/04 19:11:36 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 19:11:36 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 2s, Loop on End: true
+2025/07/04 19:11:36 config.go:168: ==============================
+2025/07/04 19:11:36 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 19:11:36 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 2s, Loop on End: true
+2025/07/04 19:11:36 config.go:168: ==============================
+2025/07/04 19:11:36 tcp_playback.go:14: === StartPlayback called ===
+2025/07/04 19:11:36 tcp_playback.go:15: Filename: recordings\java sim\connection_1_1.bin
+2025/07/04 19:11:36 tcp_playback.go:16: Host: localhost
+2025/07/04 19:11:36 tcp_playback.go:17: Port: 8080
+2025/07/04 19:11:36 tcp_playback.go:26: === STARTING PLAYBACK ===
+2025/07/04 19:11:36 tcp_playback.go:27: File: recordings\java sim\connection_1_1.bin
+2025/07/04 19:11:36 tcp_playback.go:28: Target: localhost:8080
+2025/07/04 19:11:36 tcp_playback.go:29: Current Config - Init Delay: 0s, Repeat: 3, Repeat Delay: 2s, Loop on End: true
+2025/07/04 19:11:36 tcp_playback.go:31: ========================
+2025/07/04 19:11:36 tcp_playback.go:63: Playback goroutine started for file: recordings\java sim\connection_1_1.bin
+2025/07/04 19:11:36 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:11:36 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:11:36 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:11:36 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:11:36 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:11:36 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:11:36 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:11:36 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:11:36 file_manager.go:305:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:11:36 file_manager.go:306:   Version: 1
+2025/07/04 19:11:36 tcp_playback.go:172: Found header in recordings\java sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:11:36 tcp_playback.go:124: Completed playback #1: 42 bytes from recordings\java sim\connection_1_1.bin
+2025/07/04 19:11:36 tcp_playback.go:142: Waiting 2s before next repeat...
+2025/07/04 19:11:38 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:11:38 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:11:38 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:11:38 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:11:38 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:11:38 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:11:38 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:11:38 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:11:38 file_manager.go:305:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:11:38 file_manager.go:306:   Version: 1
+2025/07/04 19:11:38 tcp_playback.go:172: Found header in recordings\java sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:11:38 tcp_playback.go:124: Completed playback #2: 42 bytes from recordings\java sim\connection_1_1.bin
+2025/07/04 19:11:38 tcp_playback.go:142: Waiting 2s before next repeat...
+2025/07/04 19:11:40 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:11:40 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:11:40 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:11:40 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:11:40 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:11:40 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:11:40 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:11:40 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:11:40 file_manager.go:305:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:11:40 file_manager.go:306:   Version: 1
+2025/07/04 19:11:40 tcp_playback.go:172: Found header in recordings\java sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:11:40 tcp_playback.go:124: Completed playback #3: 42 bytes from recordings\java sim\connection_1_1.bin
+2025/07/04 19:11:40 tcp_playback.go:136: Reached maximum repeats (3), stopping playback
+2025/07/04 19:11:40 tcp_playback.go:150: Playback stopped for recordings\java sim\connection_1_1.bin
+2025/07/04 19:11:40 tcp_playback.go:65: Playback goroutine finished for file: recordings\java sim\connection_1_1.bin
+2025/07/04 19:12:50 config.go:83: === SETTING PLAYBACK CONFIG ===
+2025/07/04 19:12:50 config.go:84: Initial Delay: 0 ms
+2025/07/04 19:12:50 config.go:85: Repeat Count: 3
+2025/07/04 19:12:50 config.go:86: Repeat Delay: 2000 ms
+2025/07/04 19:12:50 config.go:87: Loop on End: true
+2025/07/04 19:12:50 config.go:88: ==============================
+2025/07/04 19:12:50 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 19:12:50 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 2s, Loop on End: true
+2025/07/04 19:12:50 config.go:168: ==============================
+2025/07/04 19:12:50 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 19:12:50 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 2s, Loop on End: true
+2025/07/04 19:12:50 config.go:168: ==============================
+2025/07/04 19:12:50 tcp_playback.go:14: === StartPlayback called ===
+2025/07/04 19:12:50 tcp_playback.go:15: Filename: recordings\java sim\connection_1_1.bin
+2025/07/04 19:12:50 tcp_playback.go:16: Host: localhost
+2025/07/04 19:12:50 tcp_playback.go:17: Port: 8080
+2025/07/04 19:12:50 tcp_playback.go:26: === STARTING PLAYBACK ===
+2025/07/04 19:12:50 tcp_playback.go:27: File: recordings\java sim\connection_1_1.bin
+2025/07/04 19:12:50 tcp_playback.go:28: Target: localhost:8080
+2025/07/04 19:12:50 tcp_playback.go:29: Current Config - Init Delay: 0s, Repeat: 3, Repeat Delay: 2s, Loop on End: true
+2025/07/04 19:12:50 tcp_playback.go:31: ========================
+2025/07/04 19:12:50 tcp_playback.go:63: Playback goroutine started for file: recordings\java sim\connection_1_1.bin
+2025/07/04 19:12:50 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:12:50 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:12:50 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:12:50 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:12:50 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:12:50 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:12:50 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:12:50 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:12:50 file_manager.go:305:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:12:50 file_manager.go:306:   Version: 1
+2025/07/04 19:12:50 tcp_playback.go:172: Found header in recordings\java sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:12:50 tcp_playback.go:124: Completed playback #1: 42 bytes from recordings\java sim\connection_1_1.bin
+2025/07/04 19:12:50 tcp_playback.go:142: Waiting 2s before next repeat...
+2025/07/04 19:12:52 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:12:52 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:12:52 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:12:52 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:12:52 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:12:52 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:12:52 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:12:52 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:12:52 file_manager.go:305:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:12:52 file_manager.go:306:   Version: 1
+2025/07/04 19:12:52 tcp_playback.go:172: Found header in recordings\java sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:12:52 tcp_playback.go:124: Completed playback #2: 42 bytes from recordings\java sim\connection_1_1.bin
+2025/07/04 19:12:52 tcp_playback.go:142: Waiting 2s before next repeat...
+2025/07/04 19:12:54 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:12:54 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:12:54 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:12:54 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:12:54 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:12:54 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:12:54 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:12:54 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:12:54 file_manager.go:305:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:12:54 file_manager.go:306:   Version: 1
+2025/07/04 19:12:54 tcp_playback.go:172: Found header in recordings\java sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:12:54 tcp_playback.go:124: Completed playback #3: 42 bytes from recordings\java sim\connection_1_1.bin
+2025/07/04 19:12:54 tcp_playback.go:136: Reached maximum repeats (3), stopping playback
+2025/07/04 19:12:54 tcp_playback.go:150: Playback stopped for recordings\java sim\connection_1_1.bin
+2025/07/04 19:12:54 tcp_playback.go:65: Playback goroutine finished for file: recordings\java sim\connection_1_1.bin
+2025/07/04 19:13:04 config.go:83: === SETTING PLAYBACK CONFIG ===
+2025/07/04 19:13:04 config.go:84: Initial Delay: 0 ms
+2025/07/04 19:13:04 config.go:85: Repeat Count: 3
+2025/07/04 19:13:04 config.go:86: Repeat Delay: 2000 ms
+2025/07/04 19:13:04 config.go:87: Loop on End: true
+2025/07/04 19:13:04 config.go:88: ==============================
+2025/07/04 19:13:04 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 19:13:04 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 2s, Loop on End: true
+2025/07/04 19:13:04 config.go:168: ==============================
+2025/07/04 19:13:04 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 19:13:04 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 2s, Loop on End: true
+2025/07/04 19:13:04 config.go:168: ==============================
+2025/07/04 19:13:04 tcp_playback.go:14: === StartPlayback called ===
+2025/07/04 19:13:04 tcp_playback.go:15: Filename: recordings\java sim\connection_1_1.bin
+2025/07/04 19:13:04 tcp_playback.go:16: Host: localhost
+2025/07/04 19:13:04 tcp_playback.go:17: Port: 8080
+2025/07/04 19:13:04 tcp_playback.go:26: === STARTING PLAYBACK ===
+2025/07/04 19:13:04 tcp_playback.go:27: File: recordings\java sim\connection_1_1.bin
+2025/07/04 19:13:04 tcp_playback.go:28: Target: localhost:8080
+2025/07/04 19:13:04 tcp_playback.go:29: Current Config - Init Delay: 0s, Repeat: 3, Repeat Delay: 2s, Loop on End: true
+2025/07/04 19:13:04 tcp_playback.go:31: ========================
+2025/07/04 19:13:04 tcp_playback.go:63: Playback goroutine started for file: recordings\java sim\connection_1_1.bin
+2025/07/04 19:13:04 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:13:04 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:13:04 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:13:04 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:13:04 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:13:04 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:13:04 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:13:04 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:13:04 file_manager.go:305:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:13:04 file_manager.go:306:   Version: 1
+2025/07/04 19:13:04 tcp_playback.go:172: Found header in recordings\java sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:13:04 tcp_playback.go:124: Completed playback #1: 42 bytes from recordings\java sim\connection_1_1.bin
+2025/07/04 19:13:04 tcp_playback.go:142: Waiting 2s before next repeat...
+2025/07/04 19:13:06 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:13:06 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:13:06 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:13:06 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:13:06 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:13:06 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:13:06 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:13:06 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:13:06 file_manager.go:305:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:13:06 file_manager.go:306:   Version: 1
+2025/07/04 19:13:06 tcp_playback.go:172: Found header in recordings\java sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:13:06 tcp_playback.go:124: Completed playback #2: 42 bytes from recordings\java sim\connection_1_1.bin
+2025/07/04 19:13:06 tcp_playback.go:142: Waiting 2s before next repeat...
+2025/07/04 19:13:08 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:13:08 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:13:08 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:13:08 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:13:08 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:13:08 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:13:08 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:13:08 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:13:08 file_manager.go:305:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:13:08 file_manager.go:306:   Version: 1
+2025/07/04 19:13:08 tcp_playback.go:172: Found header in recordings\java sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:13:08 tcp_playback.go:124: Completed playback #3: 42 bytes from recordings\java sim\connection_1_1.bin
+2025/07/04 19:13:08 tcp_playback.go:136: Reached maximum repeats (3), stopping playback
+2025/07/04 19:13:08 tcp_playback.go:150: Playback stopped for recordings\java sim\connection_1_1.bin
+2025/07/04 19:13:08 tcp_playback.go:65: Playback goroutine finished for file: recordings\java sim\connection_1_1.bin
+2025/07/04 19:16:09 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 19:16:09 config.go:166: Current config - Init Delay: 0s, Repeat: 0, Repeat Delay: 0s, Loop on End: false
+2025/07/04 19:16:09 config.go:168: ==============================
+2025/07/04 19:16:09 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 19:16:09 config.go:166: Current config - Init Delay: 0s, Repeat: 0, Repeat Delay: 0s, Loop on End: false
+2025/07/04 19:16:09 config.go:168: ==============================
+2025/07/04 19:17:31 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 19:17:31 config.go:166: Current config - Init Delay: 0s, Repeat: 0, Repeat Delay: 0s, Loop on End: false
+2025/07/04 19:17:31 config.go:168: ==============================
+2025/07/04 19:17:31 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 19:17:31 config.go:166: Current config - Init Delay: 0s, Repeat: 0, Repeat Delay: 0s, Loop on End: false
+2025/07/04 19:17:31 config.go:168: ==============================
+2025/07/04 19:17:34 file_manager.go:42: === GETTING RECORDED FILES ===
+2025/07/04 19:17:34 file_manager.go:43: Recordings directory: recordings
+2025/07/04 19:17:34 file_manager.go:60: Found file: recordings\java sim\connection_1_1.bin
+2025/07/04 19:17:34 file_manager.go:60: Found file: recordings\tcp sim\connection_1_1.bin
+2025/07/04 19:17:34 file_manager.go:70: Total .bin files found: 2
+2025/07/04 19:17:34 file_manager.go:114: === GETTING FILE INFO ===
+2025/07/04 19:17:34 file_manager.go:115: File: recordings\java sim\connection_1_1.bin
+2025/07/04 19:17:34 file_manager.go:126: File size: 145 bytes
+2025/07/04 19:17:34 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:17:34 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:17:34 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:17:34 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:17:34 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:17:34 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:17:34 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:17:34 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:17:34 file_manager.go:305:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:17:34 file_manager.go:306:   Version: 1
+2025/07/04 19:17:34 file_manager.go:152: Header read successfully:
+2025/07/04 19:17:34 file_manager.go:153:   Magic Word: '' (length: 0)
+2025/07/04 19:17:34 file_manager.go:154:   Magic Word HEX: 
+2025/07/04 19:17:34 file_manager.go:155:   Messages Per File: 0
+2025/07/04 19:17:34 file_manager.go:156:   Max File Size: 0
+2025/07/04 19:17:34 file_manager.go:157:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:17:34 file_manager.go:158:   Version: 1
+2025/07/04 19:17:34 file_manager.go:183: No magic word in header, message count will be 0
+2025/07/04 19:17:34 file_manager.go:214: Final file info:
+2025/07/04 19:17:34 file_manager.go:215:   Magic Word: ''
+2025/07/04 19:17:34 file_manager.go:216:   Messages Per File: 0
+2025/07/04 19:17:34 file_manager.go:217:   Max File Size: 0
+2025/07/04 19:17:34 file_manager.go:218:   Message Count: 0
+2025/07/04 19:17:34 file_manager.go:219:   Is Open: false
+2025/07/04 19:17:34 file_manager.go:220: ========================
+2025/07/04 19:17:34 file_manager.go:114: === GETTING FILE INFO ===
+2025/07/04 19:17:34 file_manager.go:115: File: recordings\tcp sim\connection_1_1.bin
+2025/07/04 19:17:34 file_manager.go:126: File size: 153 bytes
+2025/07/04 19:17:34 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:17:34 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:17:34 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 18:46:31","version":1}
+2025/07/04 19:17:34 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:17:34 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:17:34 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:17:34 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:17:34 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:17:34 file_manager.go:305:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 19:17:34 file_manager.go:306:   Version: 1
+2025/07/04 19:17:34 file_manager.go:152: Header read successfully:
+2025/07/04 19:17:34 file_manager.go:153:   Magic Word: '' (length: 0)
+2025/07/04 19:17:34 file_manager.go:154:   Magic Word HEX: 
+2025/07/04 19:17:34 file_manager.go:155:   Messages Per File: 0
+2025/07/04 19:17:34 file_manager.go:156:   Max File Size: 0
+2025/07/04 19:17:34 file_manager.go:157:   Recorded At: 2025-07-04 18:46:31
+2025/07/04 19:17:34 file_manager.go:158:   Version: 1
+2025/07/04 19:17:34 file_manager.go:183: No magic word in header, message count will be 0
+2025/07/04 19:17:34 file_manager.go:214: Final file info:
+2025/07/04 19:17:34 file_manager.go:215:   Magic Word: ''
+2025/07/04 19:17:34 file_manager.go:216:   Messages Per File: 0
+2025/07/04 19:17:34 file_manager.go:217:   Max File Size: 0
+2025/07/04 19:17:34 file_manager.go:218:   Message Count: 0
+2025/07/04 19:17:34 file_manager.go:219:   Is Open: false
+2025/07/04 19:17:34 file_manager.go:220: ========================
+2025/07/04 19:17:34 file_manager.go:103: Returning 2 file infos
+2025/07/04 19:17:34 file_manager.go:104: ========================
+2025/07/04 19:17:46 config.go:83: === SETTING PLAYBACK CONFIG ===
+2025/07/04 19:17:46 config.go:84: Initial Delay: 0 ms
+2025/07/04 19:17:46 config.go:85: Repeat Count: 3
+2025/07/04 19:17:46 config.go:86: Repeat Delay: 2000 ms
+2025/07/04 19:17:46 config.go:87: Loop on End: true
+2025/07/04 19:17:46 config.go:88: ==============================
+2025/07/04 19:17:46 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 19:17:46 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 2s, Loop on End: true
+2025/07/04 19:17:46 config.go:168: ==============================
+2025/07/04 19:17:46 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 19:17:46 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 2s, Loop on End: true
+2025/07/04 19:17:46 config.go:168: ==============================
+2025/07/04 19:17:46 tcp_playback.go:15: === StartPlayback called ===
+2025/07/04 19:17:46 tcp_playback.go:16: Filename: recordings\java sim\connection_1_1.bin
+2025/07/04 19:17:46 tcp_playback.go:17: Host: localhost
+2025/07/04 19:17:46 tcp_playback.go:18: Port: 8080
+2025/07/04 19:17:46 tcp_playback.go:27: === STARTING PLAYBACK ===
+2025/07/04 19:17:46 tcp_playback.go:28: File: recordings\java sim\connection_1_1.bin
+2025/07/04 19:17:46 tcp_playback.go:29: Target: localhost:8080
+2025/07/04 19:17:46 tcp_playback.go:30: Current Config - Init Delay: 0s, Repeat: 3, Repeat Delay: 2s, Loop on End: true
+2025/07/04 19:17:46 tcp_playback.go:32: ========================
+2025/07/04 19:17:46 tcp_playback.go:64: Playback goroutine started for file: recordings\java sim\connection_1_1.bin
+2025/07/04 19:17:46 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:17:46 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:17:46 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:17:46 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:17:46 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:17:46 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:17:46 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:17:46 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:17:46 file_manager.go:305:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:17:46 file_manager.go:306:   Version: 1
+2025/07/04 19:17:46 tcp_playback.go:173: Found header in recordings\java sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:17:46 tcp_playback.go:125: Completed playback #1: 42 bytes from recordings\java sim\connection_1_1.bin
+2025/07/04 19:17:46 tcp_playback.go:143: Waiting 2s before next repeat...
+2025/07/04 19:17:48 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:17:48 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:17:48 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:17:48 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:17:48 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:17:48 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:17:48 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:17:48 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:17:48 file_manager.go:305:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:17:48 file_manager.go:306:   Version: 1
+2025/07/04 19:17:48 tcp_playback.go:173: Found header in recordings\java sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:17:48 tcp_playback.go:125: Completed playback #2: 42 bytes from recordings\java sim\connection_1_1.bin
+2025/07/04 19:17:48 tcp_playback.go:143: Waiting 2s before next repeat...
+2025/07/04 19:17:50 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:17:50 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:17:50 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:17:50 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:17:50 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:17:50 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:17:50 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:17:50 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:17:50 file_manager.go:305:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:17:50 file_manager.go:306:   Version: 1
+2025/07/04 19:17:50 tcp_playback.go:173: Found header in recordings\java sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:17:50 tcp_playback.go:125: Completed playback #3: 42 bytes from recordings\java sim\connection_1_1.bin
+2025/07/04 19:17:50 tcp_playback.go:137: Reached maximum repeats (3), stopping playback
+2025/07/04 19:17:50 tcp_playback.go:151: Playback stopped for recordings\java sim\connection_1_1.bin
+2025/07/04 19:17:50 tcp_playback.go:66: Playback goroutine finished for file: recordings\java sim\connection_1_1.bin
+2025/07/04 19:18:00 config.go:83: === SETTING PLAYBACK CONFIG ===
+2025/07/04 19:18:00 config.go:84: Initial Delay: 0 ms
+2025/07/04 19:18:00 config.go:85: Repeat Count: 3
+2025/07/04 19:18:00 config.go:86: Repeat Delay: 2000 ms
+2025/07/04 19:18:00 config.go:87: Loop on End: true
+2025/07/04 19:18:00 config.go:88: ==============================
+2025/07/04 19:18:00 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 19:18:00 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 2s, Loop on End: true
+2025/07/04 19:18:00 config.go:168: ==============================
+2025/07/04 19:18:00 config.go:165: === GETTING PLAYBACK CONFIG ===
+2025/07/04 19:18:00 config.go:166: Current config - Init Delay: 0s, Repeat: 3, Repeat Delay: 2s, Loop on End: true
+2025/07/04 19:18:00 config.go:168: ==============================
+2025/07/04 19:18:00 tcp_playback.go:15: === StartPlayback called ===
+2025/07/04 19:18:00 tcp_playback.go:16: Filename: recordings\java sim\connection_1_1.bin
+2025/07/04 19:18:00 tcp_playback.go:17: Host: localhost
+2025/07/04 19:18:00 tcp_playback.go:18: Port: 8080
+2025/07/04 19:18:00 tcp_playback.go:27: === STARTING PLAYBACK ===
+2025/07/04 19:18:00 tcp_playback.go:28: File: recordings\java sim\connection_1_1.bin
+2025/07/04 19:18:00 tcp_playback.go:29: Target: localhost:8080
+2025/07/04 19:18:00 tcp_playback.go:30: Current Config - Init Delay: 0s, Repeat: 3, Repeat Delay: 2s, Loop on End: true
+2025/07/04 19:18:00 tcp_playback.go:32: ========================
+2025/07/04 19:18:00 tcp_playback.go:64: Playback goroutine started for file: recordings\java sim\connection_1_1.bin
+2025/07/04 19:18:00 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:18:00 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:18:00 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:18:00 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:18:00 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:18:00 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:18:00 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:18:00 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:18:00 file_manager.go:305:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:18:00 file_manager.go:306:   Version: 1
+2025/07/04 19:18:00 tcp_playback.go:173: Found header in recordings\java sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:18:00 tcp_playback.go:125: Completed playback #1: 42 bytes from recordings\java sim\connection_1_1.bin
+2025/07/04 19:18:00 tcp_playback.go:143: Waiting 2s before next repeat...
+2025/07/04 19:18:02 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:18:02 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:18:02 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:18:02 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:18:02 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:18:02 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:18:02 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:18:02 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:18:02 file_manager.go:305:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:18:02 file_manager.go:306:   Version: 1
+2025/07/04 19:18:02 tcp_playback.go:173: Found header in recordings\java sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:18:02 tcp_playback.go:125: Completed playback #2: 42 bytes from recordings\java sim\connection_1_1.bin
+2025/07/04 19:18:02 tcp_playback.go:143: Waiting 2s before next repeat...
+2025/07/04 19:18:04 file_manager.go:267: Attempting to read file header...
+2025/07/04 19:18:04 file_manager.go:276: Header length: 99 bytes
+2025/07/04 19:18:04 file_manager.go:291: Header JSON: {"magicWord":"","messagesPerFile":0,"maxFileSize":0,"recordedAt":"2025-07-04 19:10:32","version":1}
+2025/07/04 19:18:04 file_manager.go:300: Header parsed successfully:
+2025/07/04 19:18:04 file_manager.go:301:   Magic Word: '' (length: 0)
+2025/07/04 19:18:04 file_manager.go:302:   Magic Word HEX: 
+2025/07/04 19:18:04 file_manager.go:303:   Messages Per File: 0
+2025/07/04 19:18:04 file_manager.go:304:   Max File Size: 0
+2025/07/04 19:18:04 file_manager.go:305:   Recorded At: 2025-07-04 19:10:32
+2025/07/04 19:18:04 file_manager.go:306:   Version: 1
+2025/07/04 19:18:04 tcp_playback.go:173: Found header in recordings\java sim\connection_1_1.bin: magicWord='', messagesPerFile=0, maxFileSize=0
+2025/07/04 19:18:04 tcp_playback.go:125: Completed playback #3: 42 bytes from recordings\java sim\connection_1_1.bin
+2025/07/04 19:18:04 tcp_playback.go:137: Reached maximum repeats (3), stopping playback
+2025/07/04 19:18:04 tcp_playback.go:151: Playback stopped for recordings\java sim\connection_1_1.bin
+2025/07/04 19:18:04 tcp_playback.go:66: Playback goroutine finished for file: recordings\java sim\connection_1_1.bin

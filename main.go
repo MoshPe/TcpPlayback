@@ -18,8 +18,8 @@ func main() {
 	// Create application with options
 	err := wails.Run(&options.App{
 		Title:  "TcpPlayback",
-		Width:  1024,
-		Height: 768,
+		Width:  1252,
+		Height: 1220,
 		AssetServer: &assetserver.Options{
 			Assets: assets,
 		},
