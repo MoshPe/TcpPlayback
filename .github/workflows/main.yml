@@ -45,6 +45,3 @@ release:
           draft: false
           prerelease: false
           files: dist/**/*
-
-      # Optionally, output the release URL
-      - run: echo "Release published: ${{ steps.create_release.outputs.url }}"
