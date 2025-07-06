@@ -7,18 +7,22 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        build:
-          - "TcpPlayback|linux/amd64|ubuntu-latest"
-          - "TcpPlayback|windows/amd64|windows-latest"
-    runs-on: ${{ fromJSON('["' + join(split(matrix.build, '|'), '","') + '"]')[2] }}
+        include:
+          - name: TcpPlayback
+            platform: linux/amd64
+            os: ubuntu-latest
+          - name: TcpPlayback
+            platform: windows/amd64
+            os: windows-latest
+    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
         with:
           submodules: recursive
       - uses: dAppServer/wails-build-action@v3
         with:
-          build-name: ${{ matrix.build.name }}
-          build-platform: ${{ matrix.build.platform }}
+          build-name: ${{ matrix.name }}
+          build-platform: ${{ matrix.platform }}
           build-obfuscate: true
       - name: Archive build artifact
         uses: actions/upload-artifact@v4
