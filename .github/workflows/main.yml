@@ -7,10 +7,10 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        name: [TcpPlayback]
-        platform: [linux/amd64, windows/amd64]
-        os: [ubuntu-latest, windows-latest]
-    runs-on: ${{ matrix.build.os }}
+        build:
+          - "TcpPlayback|linux/amd64|ubuntu-latest"
+          - "TcpPlayback|windows/amd64|windows-latest"
+    runs-on: ${{ fromJSON('["' + join(split(matrix.build, '|'), '","') + '"]')[2] }}
     steps:
       - uses: actions/checkout@v2
         with:
