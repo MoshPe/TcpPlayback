@@ -8,10 +8,10 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - name: TcpPlayback
+          - name: TcpPlayback-linux
             platform: linux/amd64
             os: ubuntu-latest
-          - name: TcpPlayback
+          - name: TcpPlayback-windows
             platform: windows/amd64
             os: windows-latest
     runs-on: ${{ matrix.os }}
@@ -32,7 +32,7 @@ jobs:
       - name: Archive build artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ matrix.name }}-${{ matrix.platform }}
+          name: ${{ matrix.name }}
           path: |
             ./build/bin/** 
 
