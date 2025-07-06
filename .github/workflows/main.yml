@@ -32,6 +32,32 @@ jobs:
       - name: Archive build artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ steps.extract.outputs.name }}-${{ steps.extract.outputs.platform }}
+          name: ${{ matrix.name }}-${{ matrix.platform }}
           path: |
-            ./build/bin/**  
+            ./build/bin/** 
+
+  release:
+    needs: build  # Only run after the build job has completed successfully
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get the latest tag
+        id: get_tag
+        run: |
+          latest_tag=$(git describe --tags --abbrev=0)
+          echo "Latest tag is: $latest_tag"
+          # Increment the version (assuming it’s a patch version)
+          IFS='.' read -r major minor patch <<< "${latest_tag//v/}"
+          new_patch=$((patch + 1))
+          new_tag="v${major}.${minor}.${new_patch}"
+          echo "New tag: $new_tag"
+          echo "new_tag=$new_tag" >> $GITHUB_ENV  # Set the new tag for later use
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.new_tag }}  # Use the incremented tag
+          name: Release ${{ env.new_tag }}  # Name the release
+          files: ./dist/**/*  # Attach all files in the dist folder
