@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TcpPlayback (debug)" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="TcpPlayback" />
+    <working_directory value="$PROJECT_DIR$" />
+    <go_parameters value="-gcflags &quot;all=-N -l&quot; -ldflags &quot; -H windowsgui&quot; -tags desktop,production,debug -o build/bin/TcpPlayback.exe" />
+    <useCustomBuildTags value="true" />
+    <envs>
+      <env name="CGO_ENABLED" value="&quot;0&quot;" />
+      <env name="CGO_LDFLAGS" value="" />
+    </envs>
+    <kind value="DIRECTORY" />
+    <package value="TcpPlayback" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$" />
+    <method v="2" />
+  </configuration>
+</component>

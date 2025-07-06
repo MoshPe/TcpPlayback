@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"bytes"
 	"fmt"
 	"io"
 	"net"
@@ -169,6 +170,7 @@ func (a *App) streamFile(filename string, conn net.Conn) (int64, error) {
 		// No header found, use current configuration
 		a.logger.Printf("No header found in %s, using current configuration\n", filename)
 		file.Seek(0, 0) // Reset to beginning
+		return a.streamFileAsSingleMessage(file, conn, filename)
 	} else {
 		a.logger.Printf("Found header in %s: magicWord='%s', messagesPerFile=%d, maxFileSize=%d\n",
 			filename, header.MagicWord, header.MessagesPerFile, header.MaxFileSize)
@@ -176,7 +178,92 @@ func (a *App) streamFile(filename string, conn net.Conn) (int64, error) {
 		if err != nil {
 			return 0, fmt.Errorf("failed to seek past header: %v", err)
 		}
+		return a.streamFileAsMessages(file, conn, filename, header.MagicWord)
 	}
+}
+
+// streamFileAsMessages streams a file by parsing it into individual messages based on magic word
+func (a *App) streamFileAsMessages(file *os.File, conn net.Conn, filename, magicWord string) (int64, error) {
+	// Read entire file content
+	content, err := io.ReadAll(file)
+	if err != nil {
+		return 0, fmt.Errorf("failed to read file %s: %v", filename, err)
+	}
+
+	if magicWord == "" {
+		// No magic word - treat entire file as one message
+		return a.streamFileAsSingleMessage(file, conn, filename)
+	}
+
+	// Get connection details for logging
+	remoteAddr := conn.RemoteAddr().String()
+	host, portStr, _ := net.SplitHostPort(remoteAddr)
+	port := 0
+	if portStr != "" {
+		fmt.Sscanf(portStr, "%d", &port)
+	}
+
+	magicWordBytes := []byte(magicWord)
+	writer := bufio.NewWriter(conn)
+	var totalBytes int64
+	var messageCount int
+
+	// Split content by magic word
+	parts := bytes.Split(content, magicWordBytes)
+
+	for i, part := range parts {
+		// Send the message part (if not empty)
+		if len(part) > 0 {
+			_, writeErr := writer.Write(part)
+			if writeErr != nil {
+				return totalBytes, fmt.Errorf("error writing message part: %v", writeErr)
+			}
+			totalBytes += int64(len(part))
+			messageCount++
+
+			// Flush after each message part
+			if flushErr := writer.Flush(); flushErr != nil {
+				return totalBytes, fmt.Errorf("error flushing message part: %v", flushErr)
+			}
+
+			a.logger.Printf("Sent message part %d: %d bytes\n", messageCount, len(part))
+		}
+
+		// Send magic word (except after the last part)
+		if i < len(parts)-1 {
+			_, writeErr := writer.Write(magicWordBytes)
+			if writeErr != nil {
+				return totalBytes, fmt.Errorf("error writing magic word: %v", writeErr)
+			}
+			totalBytes += int64(len(magicWordBytes))
+
+			// Flush after magic word to ensure message separation
+			if flushErr := writer.Flush(); flushErr != nil {
+				return totalBytes, fmt.Errorf("error flushing magic word: %v", flushErr)
+			}
+
+			a.logger.Printf("Sent magic word: %d bytes\n", len(magicWordBytes))
+		}
+	}
+
+	// Log the data sent
+	a.AddLogEntry(LogEntry{
+		FromIP:    "localhost",
+		FromPort:  0,
+		ToAddress: host,
+		ToPort:    port,
+		Method:    "SEND",
+		Data:      fmt.Sprintf("Sent %d messages (%d bytes) from %s", messageCount, totalBytes, filepath.Base(filename)),
+		Bytes:     totalBytes,
+	})
+
+	return totalBytes, nil
+}
+
+// streamFileAsSingleMessage streams a file as a single message (for files without magic word)
+func (a *App) streamFileAsSingleMessage(file *os.File, conn net.Conn, filename string) (int64, error) {
+	// Reset file to beginning
+	file.Seek(0, 0)
 
 	// Get connection details for logging
 	remoteAddr := conn.RemoteAddr().String()
